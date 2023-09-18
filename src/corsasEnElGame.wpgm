@@ -5,5 +5,36 @@ class Corsa {
 	const capacidad = 4 
 	var property colorAuto
 	
+	
+	method velocidad() = velocidadMaxima
+	method pesoAuto() = peso
+	method capacidadPasajero() = capacidad
 	}
 	
+class RenaultKwid {
+	
+	
+	const tanqueAdicional = true 
+	method capacidadPasajero() {
+		return 
+			if (not tanqueAdicional)
+				4
+				else 
+				3
+			}
+
+	method velocidad() {
+	return 
+		if (tanqueAdicional)
+				120 
+		else    110
+		}
+	method pesoAuto() {
+		return 
+			if (tanqueAdicional)
+			1200
+			else
+			1350
+	}
+	method color() ="Azul"
+}
