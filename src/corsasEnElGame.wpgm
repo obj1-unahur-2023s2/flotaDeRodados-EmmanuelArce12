@@ -1,7 +1,9 @@
-import wollok.game.*
-
-program corsasEnElGame {
-	// hacer las inicializaciones necesarias 
+class Corsa {
 	
-	game.start()
-}
+	const velocidadMaxima= 150 
+	const peso = 1300 
+	const capacidad = 4 
+	var property colorAuto
+	
+	}
+	
